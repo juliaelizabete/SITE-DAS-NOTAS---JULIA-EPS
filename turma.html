@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="style.css">
+ 
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h1>CADASTRO DE ALUNO</h1>
+        </div>
+    </nav>
+ 
+    <div class="login">
+       
+        <form method='post' action='login.php'>
+            Aluno: <input type='text' name='aluno'><br>
+            <select name='turma' >
+                <option value="" disabled selected>Selecione uma turma</option>
+                <option value='EI31'>EI31</option>
+                <option value='EI32'>EI32</option>
+            </select>
+            <select id="materia" name="materia">
+                <option value="" disabled selected>Selecione uma matéria</option>
+                <option value="portugues">Português</option>
+                <option value="matematica">Matemática</option>
+                <option value="historia">História</option>
+                <option value="ciencias">Ciências</option>
+            </select>
+            Nota 1: <input type='text' name='N1' ><br>
+            Nota 2: <input type='text' name='N2' ><br>
+            Nota 3: <input type='text' name='N3' ><br>
+            <button type='submit'>Cadastrar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

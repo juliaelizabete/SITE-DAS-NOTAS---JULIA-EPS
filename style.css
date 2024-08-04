@@ -1,0 +1,88 @@
+/* Navbar */
+.navbar {
+    background-color: #32CD32; /* Cor de fundo verde */
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.navbar .logo h1 {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.login {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login form input[type="text"],
+.login form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.login form button {
+    padding: 10px;
+    background-color: #32CD32;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login form button:hover {
+    background-color: #28a745; 
+}
+
+/*  Login Docente */
+#login {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+#login h2 {
+    margin-top: 0;
+}
+
+#login input[type="text"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#login button {
+    padding: 10px;
+    background-color: #32CD32;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#login button:hover {
+    background-color: #28a745; 
+}
